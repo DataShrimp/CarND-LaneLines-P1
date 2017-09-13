@@ -27,7 +27,7 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by fitting the full lane lines based on the segment points identified with Hough Transform. First, I splitted the identified points into left and right two parts. Then, I separately fitted the full lane line using OpenCV fitLine function. At last, I drawn the full lane lines on the image. 
 
-![images][/test_images_output/solidWhiteCurve.jpg]
+![images][./test_images_output/solidWhiteCurve.jpg]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
